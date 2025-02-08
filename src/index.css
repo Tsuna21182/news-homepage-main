@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary */
+
+  --color-SoftOrange: #e9ab53;
+  --color-SoftRed: #f15e50;
+
+  /* Neutral */
+
+  --color-OffWhite: #fffdfa;
+  --color-GrayishBlue: #c5c6ce;
+  --color-DarkGrayishBlue: #5d5f79;
+  --color-VeryDarkBlue: #00001a;
+
+  /* font */
+
+  --font-display: "Inter", serif;
+
+  /* breakpoint */
+
+  --breakpoint-3xl: 120rem;
+}
