@@ -19,18 +19,21 @@ function Header() {
 
       {isOpen && (
         <>
-          <div className="fixed top-10 right-0 w-56 h-full bg-OffWhite shadow-lg z-40">
-            <div className="mt-20">
+          <div className="fixed top-0 right-0 w-56 h-full bg-OffWhite shadow-lg z-40">
+            <div className="mt-30">
               <NavBar />
             </div>
           </div>
 
           <div
-            className="fixed top-0 left-0 w-2/5  h-full bg-black opacity-50 z-30"
+            className="fixed top-0 left-0 w-2/3  h-full bg-black opacity-50 z-30"
             onClick={() => setIsOpen(false)}
           />
         </>
       )}
+      <div className="hidden md:block">
+        <NavBar />
+      </div>
     </header>
   );
 }
